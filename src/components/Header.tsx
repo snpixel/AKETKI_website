@@ -24,7 +24,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Diamond className="h-7 w-7 text-rose-400" />
+            <img src="./logo/logo.svg" alt="Aketki" className="h-10 w-full" />
             <span className="text-xl font-serif text-gray-800">Aketki</span>
           </Link>
           
@@ -48,7 +48,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t mt-3 border-gray-200">
+          <nav className="md:hidden py-4 border-t mt-3 border-gray-200 bg-white-900 bg-opacity-90">
             <div className="flex flex-col space-y-3">
               {location.pathname !== '/' && (
                 <Link 

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Diamond className="h-6 w-6 text-rose-400" />
+            <img src="./logo/logo.svg" alt="Aketki" className="h-10 w-10" />
               <span className="text-xl font-serif text-white">Aketki</span>
             </div>
             <p className="text-sm">

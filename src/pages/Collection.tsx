@@ -4,27 +4,63 @@ import { X } from 'lucide-react';
 const necklaces = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80",
+    image: "./images/1.jpeg",
     title: "Royal Thread Necklace",
     price: "₹1,499"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&q=80",
+    image: "./images/2.jpeg",
     title: "Ethnic Collection",
     price: "₹1,299"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&q=80",
+    image: "./images/3.jpeg",
     title: "Traditional Series",
     price: "₹1,699"
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80",
+    image: "./images/4.jpeg",
     title: "Modern Fusion",
     price: "₹1,899"
+  },
+  {
+    id: 1,
+    image: "./images/5.jpeg",
+    title: "Royal Thread Necklace",
+    price: "₹1,499"
+  },
+  {
+    id: 2,
+    image: "./images/6.jpeg",
+    title: "Ethnic Collection",
+    price: "₹1,299"
+  },
+  {
+    id: 3,
+    image: "./images/7.jpeg",
+    title: "Traditional Series",
+    price: "₹1,699"
+  },
+  {
+    id: 4,
+    image: "./images/8.jpeg",
+    title: "Modern Fusion",
+    price: "₹1,899"
+  },
+  {
+    id: 1,
+    image: "./images/9.jpeg",
+    title: "Royal Thread Necklace",
+    price: "₹1,499"
+  },
+  {
+    id: 2,
+    image: "./images/10.jpeg",
+    title: "Ethnic Collection",
+    price: "₹1,299"
   },
 ];
 
