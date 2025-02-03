@@ -29,6 +29,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="bg-rose-50 py-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
+          <img src="./logo/logo.svg" alt="Aketki" className="h-50 w-full" />
+            <h2 className="text-4xl font-serif text-gray-800">Our Story</h2>
+            <p className="text-gray-600 leading-relaxed">
+              Aketki was born from a passion for creating unique, handcrafted jewelry that
+              celebrates the beauty of traditional Indian craftsmanship. Each piece is
+              thoughtfully designed and meticulously crafted using the finest materials,
+              resulting in wearable art that tells a story and captures hearts.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* About Owner Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -54,20 +70,7 @@ export default function Home() {
       </section>
 
       {/* About Company Section */}
-      <section className="bg-rose-50 py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-8">
-          <img src="./logo/logo.svg" alt="Aketki" className="h-50 w-full" />
-            <h2 className="text-4xl font-serif text-gray-800">Our Story</h2>
-            <p className="text-gray-600 leading-relaxed">
-              Aketki was born from a passion for creating unique, handcrafted jewelry that
-              celebrates the beauty of traditional Indian craftsmanship. Each piece is
-              thoughtfully designed and meticulously crafted using the finest materials,
-              resulting in wearable art that tells a story and captures hearts.
-            </p>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }

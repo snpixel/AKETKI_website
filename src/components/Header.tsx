@@ -16,25 +16,25 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`fixed  top-2  left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'mx-auto mt-4 max-w-[calc(100%-2rem)] rounded-xl bg-white/80 backdrop-blur-lg shadow-lg' 
-        : 'bg-transparent'
+        : 'bg-white/80 backdrop-blur-lg shadow-lg'
     }`}>
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2 text-xl">
             <img src="./logo/logo.svg" alt="Aketki" className="h-10 w-full" />
-            <span className="text-xl font-serif text-gray-800">Aketki</span>
+            <span className="text-xl font-serif text-xl">Aketki</span>
           </Link>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {location.pathname !== '/' && (
-              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/" className="nav-link text-xl">Home</Link>
             )}
-            <Link to="/collection" className="nav-link">Collection</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/collection" className="nav-link text-xl">Collection</Link>
+            <Link to="/contact" className="nav-link text-xl">Contact</Link>
           </nav>
 
           {/* Mobile Menu Button */}
